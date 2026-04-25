@@ -92,7 +92,7 @@ function Navbar() {
     <nav className="sticky top-0 z-50 glass border-b border-white/10 dark:border-slate-700/50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          <a href="/" className="flex items-center gap-2.5 group">
+          <a href="/pdftoolkit-pro/" className="flex items-center gap-2.5 group">
             <div className="w-8 h-8 bg-gradient-to-br from-indigo-500 to-cyan-500 rounded-lg flex items-center justify-center shadow-lg shadow-indigo-500/30 group-hover:shadow-indigo-500/50 transition-shadow">
               <svg
                 className="w-4 h-4 text-white"
@@ -114,10 +114,10 @@ function Navbar() {
           </a>
 
           <div className="hidden md:flex items-center gap-8">
-            <a href="/tools" className="nav-link">
+            <a href="/pdftoolkit-pro/tools" className="nav-link">
               Tools
             </a>
-            <a href="/pricing" className="nav-link">
+            <a href="/pdftoolkit-pro/pricing" className="nav-link">
               Pricing
             </a>
             <a
@@ -132,7 +132,7 @@ function Navbar() {
 
           <div className="flex items-center gap-3">
             <ThemeToggle />
-            <a href="/tools" className="btn-primary text-sm py-2 px-4 hidden sm:inline-flex">
+            <a href="/pdftoolkit-pro/tools" className="btn-primary text-sm py-2 px-4 hidden sm:inline-flex">
               Start Free
             </a>
           </div>
@@ -185,12 +185,12 @@ function Footer() {
             </h4>
             <ul className="space-y-2.5">
               {[
-                { name: "Merge PDF", href: "/tools/merge" },
-                { name: "Compress PDF", href: "/tools/compress" },
-                { name: "Split PDF", href: "/tools/split" },
-                { name: "Watermark", href: "/tools/watermark" },
-                { name: "Rotate PDF", href: "/tools/rotate" },
-                { name: "Extract Text", href: "/tools/extract-text" },
+                { name: "Merge PDF", href: "/pdftoolkit-pro/tools/merge" },
+                { name: "Compress PDF", href: "/pdftoolkit-pro/tools/compress" },
+                { name: "Split PDF", href: "/pdftoolkit-pro/tools/split" },
+                { name: "Watermark", href: "/pdftoolkit-pro/tools/watermark" },
+                { name: "Rotate PDF", href: "/pdftoolkit-pro/tools/rotate" },
+                { name: "Extract Text", href: "/pdftoolkit-pro/tools/extract-text" },
               ].map((tool) => (
                 <li key={tool.href}>
                   <a
@@ -210,7 +210,7 @@ function Footer() {
             </h4>
             <ul className="space-y-2.5">
               <li>
-                <a href="/pricing" className="text-slate-500 dark:text-slate-400 hover:text-indigo-600 dark:hover:text-indigo-400 text-sm transition-colors">
+                <a href="/pdftoolkit-pro/pricing" className="text-slate-500 dark:text-slate-400 hover:text-indigo-600 dark:hover:text-indigo-400 text-sm transition-colors">
                   Pricing
                 </a>
               </li>

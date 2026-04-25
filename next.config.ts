@@ -5,6 +5,8 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
+  basePath: "/pdftoolkit-pro",
+  assetPrefix: "/pdftoolkit-pro/",
   trailingSlash: true,
 };
 
